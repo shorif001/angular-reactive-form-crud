@@ -12,16 +12,23 @@ export class AddStudentComponent implements OnInit {
   constructor(private studentService:StudentsService) { }
 
 
+  message:boolean = false;
   addStudent = new FormGroup({
     name:new FormControl(''),
     email:new FormControl(''),
   })
 
   saveData(){
-    console.log(this.addStudent.value);
+    // console.log(this.addStudent.value);
     this.studentService.saveStudentData(this.addStudent.value).subscribe((result)=>{
-      console.log(result);
+      // console.log(result);
+      this.message = true;
+      this.addStudent.reset({})
     })
+  }
+
+  removeMessage(){
+    this.message = false;
   }
 
  
