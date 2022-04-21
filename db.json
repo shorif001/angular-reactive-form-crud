@@ -1,64 +1,9 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "Masud",
-      "email": "masud@gmail.com"
-    },
-    {
-      "id": 2,
-      "name": "Korim",
-      "email": "korim@gmail.com"
-    },
-    {
-      "id": 3,
-      "name": "Rohim",
-      "email": "rohim@gmail.com"
-    },
-    {
-      "name": "fdfd",
-      "email": "fdf@ffd",
-      "id": 4
-    },
-    {
-      "name": "dfdfd",
-      "email": "fdfd@fdfd",
-      "id": 5
-    },
-    {
-      "name": "korimuddin",
-      "email": "korim@uddin.com",
-      "id": 6
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 7
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 8
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 10
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 11
-    },
-    {
-      "name": "dfdfd",
-      "email": "dfdfd@fdfd",
-      "id": 12
+      "name": "Rofik",
+      "email": "rofik@gmail.com",
+      "id": 1
     }
   ],
   "comments": [

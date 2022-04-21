@@ -19,4 +19,8 @@ export class StudentsService {
     return this.http.post( this.url, data);
   }
 
+  deleteStudent1(id:any){
+    return this.http.delete(`${this.url}/${id}`)
+  }
+
 }

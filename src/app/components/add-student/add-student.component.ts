@@ -18,6 +18,8 @@ export class AddStudentComponent implements OnInit {
     email:new FormControl(''),
   })
 
+  // https://www.youtube.com/watch?v=z8lYOHFEIn4&list=PLQcBFrxTul9IQFF7fJz7jgdRYJz1OCbll&index=7
+  
   saveData(){
     // console.log(this.addStudent.value);
     this.studentService.saveStudentData(this.addStudent.value).subscribe((result)=>{

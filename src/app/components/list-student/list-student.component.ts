@@ -19,4 +19,13 @@ export class ListStudentComponent implements OnInit {
     })
   }
 
+
+  deleteStudent(student_id:any){
+    // console.log(student_id);
+    this.studentService.deleteStudent1(student_id).subscribe((result)=>{
+      // console.log(result);
+      this.ngOnInit();
+    })
+  }
+
 }
