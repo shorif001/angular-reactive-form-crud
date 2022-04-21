@@ -19,15 +19,15 @@ export class StudentsService {
     return this.http.post( this.url, data);
   }
 
-  deleteStudent1(id:number){
-    return this.http.delete(`${this.url}/${id}`)
+  deleteStudent1(i:number){
+    return this.http.delete(`${this.url}/${i}`)
   }
 
-  getStudentById(id:number){
-    return this.http.get(`${this.url}/${id}`);
+  getStudentById(i:number){
+    return this.http.get(`${this.url}/${i}`);
   }
-  updateStudentData(id:number, data:any){
-    return this.http.put(`${this.url}/${id}`, data);
+  updateStudentData(i:number, data:any){
+    return this.http.put(`${this.url}/${i}`, data);
   }
 
 }
