@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Masud",
+      "email": "masud@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Korim",
+      "email": "korim@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Rohim",
+      "email": "rohim@gmail.com"
+    },
+    {
+      "name": "fdfd",
+      "email": "fdf@ffd",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
