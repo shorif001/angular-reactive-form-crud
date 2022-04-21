@@ -12,7 +12,15 @@ export class ListStudentComponent implements OnInit {
 
   allstudents:any = [];
 
+  dtOptions:DataTables.Settings = {};
+
   ngOnInit(): void {
+    this.dtOptions ={
+      pagingType: 'full_numbers',
+      pageLength: 5,
+      lengthMenu: [5,10, 15, 50],
+      processing: true
+    }
     this.studentService.getAllStudent().subscribe((allData)=>{
       console.log(allData);
       this.allstudents = allData;
