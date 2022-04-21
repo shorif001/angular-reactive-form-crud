@@ -20,7 +20,11 @@ export class ListStudentComponent implements OnInit {
   }
 
 
-  deleteStudent(student_id:any){
+  editStudent(student_id:number){
+
+  }
+
+  deleteStudent(student_id:number){
     // console.log(student_id);
     this.studentService.deleteStudent1(student_id).subscribe((result)=>{
       // console.log(result);
