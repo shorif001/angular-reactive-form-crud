@@ -1,19 +1,14 @@
 {
   "students": [
     {
-      "name": "mysqlsdd",
-      "email": "dfdf",
-      "id": 1
-    }
-  ],
-  "comments": [
+      "name": "Sabbir",
+      "email": "sabbir@gmail.com",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Khatun",
+      "email": "khatun@gmail.com",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
