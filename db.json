@@ -1,49 +1,19 @@
 {
   "students": [
     {
-      "name": "Sabbir",
-      "email": "sabbir@gmail.com",
-      "id": 0
-    },
-    {
-      "name": "Khatun",
-      "email": "khatun@gmail.com",
+      "name": "amar",
+      "email": "ontore gha",
       "id": 1
     },
     {
-      "name": "halim",
-      "email": "halim@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "pushpo",
-      "email": "pushpo@gmail.com",
+      "name": "amar",
+      "email": "kotha",
       "id": 3
     },
     {
-      "name": "taher",
-      "email": "taher@gmail.com",
+      "name": "mone",
+      "email": "kore",
       "id": 4
-    },
-    {
-      "name": "kolimoddin",
-      "email": "koli@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "jabed",
-      "email": "jabed@gmail.com",
-      "id": 6
-    },
-    {
-      "name": "johir",
-      "email": "johir@gmail.com",
-      "id": 7
-    },
-    {
-      "name": "tuli",
-      "email": "tuli@gmail.com",
-      "id": 9
     }
   ]
 }

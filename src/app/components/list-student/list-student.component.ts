@@ -8,35 +8,36 @@ import { StudentsService } from 'src/app/services/students.service';
 })
 export class ListStudentComponent implements OnInit {
 
-  constructor(private studentService:StudentsService) { }
+  constructor(private studentService: StudentsService) { }
 
-  allstudents:any = [];
+  allstudents: any = [];
 
-  dtOptions:DataTables.Settings = {};
+  dtOptions: DataTables.Settings = {};
 
   ngOnInit(): void {
-    this.dtOptions ={
+    this.dtOptions = {
       pagingType: 'full_numbers',
       pageLength: 5,
-      lengthMenu: [5,10, 15, 50],
+      lengthMenu: [5, 10, 15, 50],
       processing: true
     }
-    this.studentService.getAllStudent().subscribe((allData)=>{
+    this.studentService.getAllStudent().subscribe((allData) => {
       console.log(allData);
       this.allstudents = allData;
     })
   }
 
 
-  editStudent(student_id:number){
+  
 
-  }
-
-  deleteStudent(student_id:number){
+  deleteStudent(student_id: number) {
     // console.log(student_id);
-    this.studentService.deleteStudent1(student_id).subscribe((result)=>{
+    this.studentService.deleteStudent1(student_id).subscribe((result) => {
       // console.log(result);
       this.ngOnInit();
+
+    }, err => {
+      console.log(err);
     })
   }
 

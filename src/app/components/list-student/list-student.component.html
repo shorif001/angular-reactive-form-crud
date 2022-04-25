@@ -4,7 +4,7 @@
 
 <div class="container">
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-9">
         <table class="table table-bordered" datatable [dtOptions]="dtOptions">
             <thead>
               <tr>
@@ -23,9 +23,10 @@
                 <td>{{student.email}}</td>
                 <td>
                     <!-- <button (click)="editStudent(student.id)" routerLink="/edit/{{student.id}}" class="btn btn-warning">Edit</button> |  -->
-                    <button (click)="editStudent(i)" routerLink="/edit/{{i}}" class="btn btn-warning">Edit</button> | 
+                    <button routerLink="/edit/{{i+1}}" class="btn btn-warning">Edit</button> | 
+                    <button routerLink="/view/{{i+1}}" class="btn btn-warning">view</button> | 
                     <!-- <button (click)="deleteStudent(student.id)" class="btn btn-danger">Delete</button> -->
-                    <button (click)="deleteStudent(i)" class="btn btn-danger">Delete</button>
+                    <button (click)="deleteStudent(student.id)" class="btn btn-danger">Delete</button>
                 </td>
               </tr>
               

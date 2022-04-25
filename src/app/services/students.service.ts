@@ -20,7 +20,7 @@ export class StudentsService {
   }
 
   deleteStudent1(i:number){
-    return this.http.delete(`${this.url}/${i}`)
+    return this.http.delete(`${this.url}/${i}`);
   }
 
   getStudentById(i:number){
@@ -28,6 +28,10 @@ export class StudentsService {
   }
   updateStudentData(i:number, data:any){
     return this.http.put(`${this.url}/${i}`, data);
+  }
+
+  viewStudent(id:any){
+    return this.http.get(`${this.url}/${id}`);
   }
 
 }

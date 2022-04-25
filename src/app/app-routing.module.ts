@@ -5,10 +5,12 @@ import { EditStudentComponent } from './components/edit-student/edit-student.com
 import { ListStudentComponent } from './components/list-student/list-student.component';
 import { LoginStudentComponent } from './components/login-student/login-student.component';
 import { RegistrationStudentComponent } from './components/registration-student/registration-student.component';
+import { ViewStudentsComponent } from './components/view-students/view-students.component';
 
 const routes: Routes = [
   {path:'add', component:AddStudentComponent},
   {path:'edit/:id', component:EditStudentComponent},
+  {path:'view/:id', component:ViewStudentsComponent},
   {path:'list', component:ListStudentComponent},
   {path:'login', component:LoginStudentComponent},
   {path:'reg', component:RegistrationStudentComponent},
