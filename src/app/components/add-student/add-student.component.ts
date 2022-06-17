@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { StudentsService } from 'src/app/services/students.service';
 
 @Component({
@@ -14,9 +14,13 @@ export class AddStudentComponent implements OnInit {
 
   message:boolean = false;
   addStudent = new FormGroup({
-    name:new FormControl(''),
+    name:new FormControl('', [Validators.required]),
     email:new FormControl(''),
   })
+
+  get name(){
+    return this.addStudent.get('name');
+  }
 
   // https://www.youtube.com/watch?v=z8lYOHFEIn4&list=PLQcBFrxTul9IQFF7fJz7jgdRYJz1OCbll&index=7
   
