@@ -1,7 +1,7 @@
 {
   "students": [
     {
-      "name": "rerertushi",
+      "name": "tushi",
       "email": "tushi@gmail.com",
       "id": 1
     },
@@ -14,11 +14,6 @@
       "name": "morjina",
       "email": "morjina@gmail.com",
       "id": 4
-    },
-    {
-      "name": "gfdgfsdg",
-      "email": "fdgfdgs",
-      "id": 6
     }
   ]
 }
