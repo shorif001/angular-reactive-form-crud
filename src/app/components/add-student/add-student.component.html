@@ -13,7 +13,7 @@
       <form [formGroup]="addStudent" (ngSubmit)="saveData()">
         <div class="form-group">
           <label>Name</label>
-          <input type="text" class="form-control" formControlName="name" minlength="10" name="name" id="name" >
+          <input type="text" class="form-control" formControlName="name" minlength="5" name="name" id="name" >
         </div>
         <div class="text-danger" *ngIf="name && name.invalid && name.touched">
           <div *ngIf="!name.hasError('required') && !name.hasError('minLength')">Minimum 5 and Maximum 10 charecter</div>

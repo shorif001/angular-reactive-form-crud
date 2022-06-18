@@ -1,18 +1,23 @@
 {
   "students": [
     {
-      "name": "amar",
-      "email": "ontore gha",
+      "name": "tushi",
+      "email": "tushi@gmail.com",
       "id": 1
     },
     {
-      "name": "amar",
-      "email": "kotha",
+      "name": "sokina",
+      "email": "sokina@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "jorina",
+      "email": "jorina@gmail.com",
       "id": 3
     },
     {
-      "name": "mone",
-      "email": "kore",
+      "name": "morjina",
+      "email": "morjina@gmail.com",
       "id": 4
     }
   ]
