@@ -23,18 +23,18 @@
                 <td>{{student.email}}</td>
                 <td>
                     <!-- <button (click)="editStudent(student.id)" routerLink="/edit/{{student.id}}" class="btn btn-warning">Edit</button> |  -->
-                    <button routerLink="/edit/{{i+1}}" class="btn btn-warning">Edit</button> | 
-                    <button routerLink="/view/{{i+1}}" class="btn btn-warning">view</button> | 
+                    <button routerLink="/edit/{{student.id}}" class="btn btn-warning">Edit</button> |
+                    <button routerLink="/view/{{student.id}}" class="btn btn-warning">view</button> |
                     <!-- <button (click)="deleteStudent(student.id)" class="btn btn-danger">Delete</button> -->
                     <button (click)="deleteStudent(student.id)" class="btn btn-danger">Delete</button>
                 </td>
               </tr>
-              
+
             </tbody>
           </table>
     </div>
 </div>
 </div>
 
-<!-- {{student.id}} bebohar korle serial no. change hobe na. jemon sl no. 1, 2, 3, 4 
+<!-- {{student.id}} bebohar korle serial no. change hobe na. jemon sl no. 1, 2, 3, 4
         ami 3 no. delete korle sl no hobe 1, 2, 4 r jodi i bebohar kori tahole sl no. hobe 1, 2, 3 -->
